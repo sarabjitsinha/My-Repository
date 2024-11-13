@@ -1,3 +1,3 @@
-# My-first-repo
-Getting started with Github
-Github day-3
+# My-Repository
+Pushing code to Github
+
