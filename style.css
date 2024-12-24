@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --height:100vh;
+    --width:100vw;
+}
+
+.container{
+    height: calc(var(--height)*.95);
+    width: var(--width);
+    background-color: limegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: calc(var(--height)*0.40);
+    width: calc(var(--width)*0.25);
+    background-color: lightcoral;
+    border: 2px solid black;
+    box-shadow: 15px 20px 5px 50px magenta;
+}
+
+h2::before{
+    content:"XX";
+}
+
+h2::after{
+    content: "XX";
+}
+
+h2{
+    text-align: center;
+}
